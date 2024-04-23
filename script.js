@@ -6,7 +6,7 @@ function startExam() {
 
 function startCountdown() {
     var countdownElement = document.getElementById('countdown');
-    var countdownTime = 40 * 60; // 40 phút
+    var countdownTime = 5 * 60; // 40 phút
     var countdownInterval = setInterval(function() {
         var minutes = Math.floor(countdownTime / 60);
         var seconds = countdownTime % 60;
